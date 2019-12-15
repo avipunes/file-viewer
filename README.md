@@ -33,3 +33,10 @@ This is a custom element ([web component](https://developer.mozilla.org/en-US/do
 ### Supported File Extensions
 
 `.png`, `.jpg`, `.jpeg`, `.gif`, `.pdf`, `xlsx`
+
+### Examples:
+
+-   [React](https://codesandbox.io/s/tender-platform-rlxs1)
+-   [Vue](https://codesandbox.io/s/tender-platform-rlxs1)
+-   [Angular](https://codesandbox.io/s/dreamy-goldstine-e9pso)
+-   [Vanilla](https://codesandbox.io/s/vigorous-moon-ghy8w)
