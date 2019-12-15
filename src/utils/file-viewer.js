@@ -18,9 +18,11 @@ export const FileViewer = (url, filename) => {
     }
 };
 
-const getFileExtensionByTitle = (filename = "") => {
-    return filename
-        .split(".")
-        .pop()
-        .toLowerCase();
+const getFileExtensionByTitle = filename => {
+    return !!filename
+        ? filename
+              .split(".")
+              .pop()
+              .toLowerCase()
+        : null;
 };
