@@ -1,0 +1,34 @@
+<script src="bundle.js"></script>
+
+<!DOCTYPE html />
+<html lang="en">
+    <head>
+        <meta charset="utf8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>File Viewer</title>
+        <link rel="stylesheet" href="global.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <file-viewer
+                id="file-viewer"
+                filename="sample.pdf"
+                url="http://www.africau.edu/images/default/sample.pdf"
+            ></file-viewer>
+        </div>
+
+        <script>
+            document
+                .querySelector("#file-viewer")
+                .addEventListener("onload", e => console.log("e", e));
+        </script>
+    </body>
+
+    <style>
+        file-viewer {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</html>
