@@ -5,10 +5,10 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/gojutin/svelte-custom-element.git"
+        "url": "git+https://github.com/avipunes/File-Viewer.git"
     },
     "bugs": {
-        "url": "https://github.com/gojutin/svelte-custom-element/issues"
+        "url": "https://github.com/avipunes/File-Viewer.git/issues"
     },
     "module": "./public/bundle.js",
     "main": "./public/bundle.js",
