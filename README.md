@@ -21,7 +21,7 @@ This is a custom element ([web component](https://developer.mozilla.org/en-US/do
     url="https://link.com"
 >
     <div slot="not-supported">
-        :(
+        😕
     </div>
 </file-viewer>
 ```
