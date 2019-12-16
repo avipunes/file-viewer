@@ -32,7 +32,8 @@ This is a custom element ([web component](https://developer.mozilla.org/en-US/do
 
 ### Supported File Extensions
 
-`.png`, `.jpg`, `.jpeg`, `.gif`, `.pdf`, `xlsx`
+`.ppt`, `.pptx`, `.doc`, `.docx`, `.xls`, `.xlsx`, `.pdf`,
+`.png`, `.jpg`, `.jpeg`, `.gif`,
 
 ### Examples:
 

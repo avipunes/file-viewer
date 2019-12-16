@@ -9,6 +9,11 @@ export const FileViewer = (url, filename) => {
         case "pdf":
             return url;
 
+        case "ppt":
+        case "pptx":
+        case "doc":
+        case "docx":
+        case "xls":
         case "xlsx":
             return `https://view.officeapps.live.com/op/embed.aspx?src=${decodeURIComponent(
                 url
