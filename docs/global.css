@@ -16,8 +16,9 @@ html {
     font-family: sans-serif;
 }
 
-file-viewer {
+.file-viewer-container {
     height: 500px;
+    width: 100%;
 }
 
 code {
