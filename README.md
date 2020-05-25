@@ -30,6 +30,10 @@ This is a custom element ([web component](https://developer.mozilla.org/en-US/do
 
 -   `not-supported` - Given file extension is not supported.
 
+### Available events:
+
+-   `onload` - iframe onload event.
+
 ### Supported File Extensions
 
 `.ppt`, `.pptx`, `.doc`, `.docx`, `.xls`, `.xlsx`, `.pdf`,
