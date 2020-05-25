@@ -1,6 +1,6 @@
 # File Viewer
 
-This is a custom element ([web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) - can be used every where regardless the framework) built with [Svelte](https://svelte.dev/) to view files.
+This is a custom element ([web component](https://developer.mozilla.org/en-US/docs/Web/Web_Components) - can be used every where regardless the framework) built with [Svelte](https://svelte.dev/) to view files. [Demo](https://avipunes.github.io/file-viewer/)
 
 ## Usage
 

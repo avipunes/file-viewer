@@ -11,23 +11,25 @@
 
     <body>
         <div class="container">
+            <h1>PDF</h1>
             <file-viewer
                 id="file-viewer"
                 filename="sample.pdf"
-                url="http://www.africau.edu/images/default/sample.pdf"
+                url="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
             ></file-viewer>
             <hr />
+            <h1>Excel</h1>
             <file-viewer
                 id="file-viewer2"
                 filename="Sample-Sales-Data.xlsx"
-                url="http://reference1.mapinfo.com/software/anysite/english_AU/tutorials/Sample-Sales-Data.xlsx"
+                url="https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_100.xls"
             ></file-viewer>
         </div>
 
         <script>
             document
                 .querySelector("#file-viewer")
-                .addEventListener("onload", e => console.log("e", e));
+                .addEventListener("onload", (e) => console.log("e", e));
         </script>
     </body>
 

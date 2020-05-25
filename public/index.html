@@ -11,23 +11,48 @@
 
     <body>
         <div class="container">
-            <file-viewer
-                id="file-viewer"
-                filename="sample.pdf"
-                url="http://www.africau.edu/images/default/sample.pdf"
-            ></file-viewer>
+            <h1>File View - Web Component</h1>
+            <h2>PDF</h2>
+            <pre>
+                <code>
+&lt;file-viewer
+    id="file-viewer"
+    filename="sample.pdf"
+    url="http://www.africau.edu/images/default/sample.pdf"
+&gt;&lt;/file-viewer&gt;
+                </code>
+            </pre>
+            <div class="file-viewer-container">
+                <file-viewer
+                    id="file-viewer"
+                    filename="sample.pdf"
+                    url="http://www.africau.edu/images/default/sample.pdf"
+                ></file-viewer>
+            </div>
             <hr />
-            <file-viewer
-                id="file-viewer2"
-                filename="Sample-Sales-Data.xlsx"
-                url="http://reference1.mapinfo.com/software/anysite/english_AU/tutorials/Sample-Sales-Data.xlsx"
-            ></file-viewer>
+            <h2>Excel</h2>
+            <pre>
+                <code>
+&lt;file-viewer
+    id="file-viewer2"
+    filename="Sample-Sales-Data.xlsx"
+    url="http://reference1.mapinfo.com/software/anysite/english_AU/tutorials/Sample-Sales-Data.xlsx"
+&lt;&lt;/file-viewer&lt;
+                </code>
+            </pre>
+            <div class="file-viewer-container">
+                <file-viewer
+                    id="file-viewer2"
+                    filename="Sample-Sales-Data.xlsx"
+                    url="https://file-examples.com/wp-content/uploads/2017/02/file_example_XLS_100.xls"
+                ></file-viewer>
+            </div>
         </div>
 
         <script>
             document
                 .querySelector("#file-viewer")
-                .addEventListener("onload", e => console.log("e", e));
+                .addEventListener("onload", (e) => console.log("e", e));
         </script>
     </body>
 
