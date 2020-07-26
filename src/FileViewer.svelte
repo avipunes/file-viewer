@@ -1,22 +1,13 @@
 <svelte:options tag="file-viewer" />
 
 <script>
-    import { onMount } from "svelte";
     import { FileViewer } from "./utils/file-viewer";
 
     export let url = null;
     export let filename = null;
 
-    let formattedUrl
-    let fileTypeSupported;
-
-    onMount(() => {
-        setTimeout(() => { // svelte's bug
-            formattedUrl = FileViewer(url, filename);
-
-            fileTypeSupported = formattedUrl !== "not supported";
-        }, 0);
-    });
+    const formattedUrl = FileViewer(url, filename);
+    const fileTypeSupported = formattedUrl !== "not supported";
 
     function isNil(obj) {
         return obj === undefined || obj === null;
